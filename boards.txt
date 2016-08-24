@@ -1,0 +1,27 @@
+# IoT-Experiments Boards Configuration
+#
+# For more information see:
+# - https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
+# - https://github.com/arduino/Arduino/wiki/Arduino-Hardware-Cores-migration-guide-from-1.0-to-1.6
+#
+
+##############################################################
+# Arduino Pro Mini @ 1Mhz (internal oscillator)
+promini1MhzInt.name=Arduino Pro Mini (1MHz internal oscillator)
+promini1MhzInt.bootloader.low_fuses=0x62
+promini1MhzInt.bootloader.high_fuses=0xdc
+promini1MhzInt.bootloader.extended_fuses=0x06
+promini1MhzInt.bootloader.file=optiboot/optiboot_atmega328_pro_1MHz.hex
+promini1MhzInt.bootloader.unlock_bits=0x3F
+promini1MhzInt.bootloader.lock_bits=0x2F
+promini1MhzInt.bootloader.tool=arduino:avrdude  
+promini1MhzInt.build.board=AVR_PRO
+promini1MhzInt.build.mcu=atmega328p
+promini1MhzInt.build.f_cpu=1000000L
+promini1MhzInt.build.core=arduino:arduino
+promini1MhzInt.build.variant=arduino:eightanaloginputs
+promini1MhzInt.upload.tool=avrdude
+promini1MhzInt.upload.protocol=arduino
+promini1MhzInt.upload.maximum_size=32256
+promini1MhzInt.upload.maximum_data_size=2048
+promini1MhzInt.upload.speed=7200
