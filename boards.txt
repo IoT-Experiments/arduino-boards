@@ -6,22 +6,42 @@
 #
 
 ##############################################################
-# Arduino Pro Mini @ 1Mhz (internal oscillator)
-promini1MhzInt.name=Arduino Pro Mini (1MHz internal oscillator)
-promini1MhzInt.bootloader.low_fuses=0x62
-promini1MhzInt.bootloader.high_fuses=0xdc
-promini1MhzInt.bootloader.extended_fuses=0x06
-promini1MhzInt.bootloader.file=optiboot/optiboot_atmega328_pro_1MHz.hex
-promini1MhzInt.bootloader.unlock_bits=0x3F
-promini1MhzInt.bootloader.lock_bits=0x2F
-promini1MhzInt.bootloader.tool=arduino:avrdude  
-promini1MhzInt.build.board=AVR_PRO
-promini1MhzInt.build.mcu=atmega328p
-promini1MhzInt.build.f_cpu=1000000L
-promini1MhzInt.build.core=arduino:arduino
-promini1MhzInt.build.variant=arduino:eightanaloginputs
-promini1MhzInt.upload.tool=avrdude
-promini1MhzInt.upload.protocol=arduino
-promini1MhzInt.upload.maximum_size=32256
-promini1MhzInt.upload.maximum_data_size=2048
-promini1MhzInt.upload.speed=7200
+# Arduino Pro Mini @ 1Mhz / 7200bds
+promini1MhzInt7200bds.name=Arduino Pro Mini (1MHz / 7200bds)
+promini1MhzInt7200bds.bootloader.low_fuses=0x62
+promini1MhzInt7200bds.bootloader.high_fuses=0xdc
+promini1MhzInt7200bds.bootloader.extended_fuses=0x06
+promini1MhzInt7200bds.bootloader.file=optiboot/optiboot_atmega328_pro_1MHz_7200bds.hex
+promini1MhzInt7200bds.bootloader.unlock_bits=0x3F
+promini1MhzInt7200bds.bootloader.lock_bits=0x2F
+promini1MhzInt7200bds.bootloader.tool=arduino:avrdude
+promini1MhzInt7200bds.build.board=AVR_PRO
+promini1MhzInt7200bds.build.mcu=atmega328p
+promini1MhzInt7200bds.build.f_cpu=1000000L
+promini1MhzInt7200bds.build.core=arduino:arduino
+promini1MhzInt7200bds.build.variant=arduino:eightanaloginputs
+promini1MhzInt7200bds.upload.tool=avrdude
+promini1MhzInt7200bds.upload.protocol=arduino
+promini1MhzInt7200bds.upload.maximum_size=32256
+promini1MhzInt7200bds.upload.maximum_data_size=2048
+promini1MhzInt7200bds.upload.speed=7200
+
+# Arduino Pro Mini @ 1Mhz / 3600bds
+promini1MhzInt3600bds.name=Arduino Pro Mini (1MHz / 3600bds)
+promini1MhzInt3600bds.bootloader.low_fuses=0x62
+promini1MhzInt3600bds.bootloader.high_fuses=0xdc
+promini1MhzInt3600bds.bootloader.extended_fuses=0x06
+promini1MhzInt3600bds.bootloader.file=optiboot/optiboot_atmega328_pro_1MHz_3600bds.hex
+promini1MhzInt3600bds.bootloader.unlock_bits=0x3F
+promini1MhzInt3600bds.bootloader.lock_bits=0x2F
+promini1MhzInt3600bds.bootloader.tool=arduino:avrdude
+promini1MhzInt3600bds.build.board=AVR_PRO
+promini1MhzInt3600bds.build.mcu=atmega328p
+promini1MhzInt3600bds.build.f_cpu=1000000L
+promini1MhzInt3600bds.build.core=arduino:arduino
+promini1MhzInt3600bds.build.variant=arduino:eightanaloginputs
+promini1MhzInt3600bds.upload.tool=avrdude
+promini1MhzInt3600bds.upload.protocol=arduino
+promini1MhzInt3600bds.upload.maximum_size=32256
+promini1MhzInt3600bds.upload.maximum_data_size=2048
+promini1MhzInt3600bds.upload.speed=3600
